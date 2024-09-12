@@ -1,0 +1,13 @@
+[package]
+name = "test_servise_json"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6"
+tokio = { version = "1.30", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15"
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres"] }
+reqwest  = { version = "0.11", features = ["json"] }

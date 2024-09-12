@@ -1,0 +1,49 @@
+{
+    "order_uid": "b563feb7b2b84b6test3",
+    "track_number": "TRACKNUMBER3",
+    "entry": "ENTRY3",
+    "delivery": {
+      "name": "Charlie Example",
+      "phone": "+9721000003",
+      "zip": "345678",
+      "city": "City C",
+      "address": "Street C 3",
+      "region": "Region C",
+      "email": "charlie@example.com"
+    },
+    "payment": {
+      "transaction": "b563feb7b2b84b6test3",
+      "request_id": "",
+      "currency": "USD",
+      "provider": "providerC",
+      "amount": 3000,
+      "payment_dt": 1637910000,
+      "bank": "bankC",
+      "delivery_cost": 1000,
+      "goods_total": 2000,
+      "custom_fee": 0
+    },
+    "items": [
+      {
+        "chrt_id": 9934933,
+        "track_number": "TRACKNUMBER3",
+        "price": 300,
+        "rid": "RID345678",
+        "name": "Item C",
+        "sale": 20,
+        "size": "L",
+        "total_price": 250,
+        "nm_id": 2389215,
+        "brand": "Brand C",
+        "status": 200
+      }
+    ],
+    "locale": "en",
+    "internal_signature": "",
+    "customer_id": "customer3",
+    "delivery_service": "service3",
+    "shardkey": "3",
+    "sm_id": 3,
+    "date_created": "2021-11-03T06:22:19Z",
+    "oof_shard": "1"
+  }
