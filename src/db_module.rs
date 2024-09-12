@@ -2,6 +2,7 @@ use serde::{Deserialize, Serialize};
 use sqlx::postgres::PgPool;
 use sqlx::FromRow;
 
+// Запросы для создания таблиц в БД
 pub static CREATE_DELIVERY_TABLE: &str = r#"
         CREATE TABLE delivery (
             id SERIAL PRIMARY KEY,
